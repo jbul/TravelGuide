@@ -1,0 +1,94 @@
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+   min-height: 500px;
+   max-height: 500px;
+   margin: auto;
+   }
+
+
+   .logo{
+     width:30px;
+     height: auto;
+     margin-top: 0px;
+     margin-left: -20px;
+
+   }
+
+   #title{
+     font-family: 'Gloria Hallelujah', cursive;
+   }
+
+   .heading0{ color: #000000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 21px;
+  font-weight: 300;
+  text-shadow: 0px 0px 1px black, 0 0 0.2px blue, 0 0 1px darkblue;
+  line-height: 25px;
+  margin: 0 0 9px;
+  text-align: center; }
+
+   .heading1{ color: #000000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 21px;
+  font-weight: 300;
+  text-shadow: 0px 0px 1px black, 0 0 0.2px blue, 0 0 1px darkblue;
+  line-height: 25px;
+  margin: 0 0 9px;
+  text-align: center;
+  -webkit-transform: rotate(9deg);
+  -moz-transform: rotate(9deg);
+  -o-transform: rotate(9deg);
+  -ms-transform: rotate(9deg);
+  transform: rotate(9deg);
+ }
+
+ .sectiontitle{ color: #4d4d4d;
+   font-family: 'Gloria Hallelujah', cursive;
+   font-size: 50px;
+ }
+
+  .heading2{ color: #000000;
+  border-style:solid; border-color: #cccccc;
+  border-width: thin;
+  font-family:'arial';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0 0 9px;
+  text-align: right; }
+
+  .contact{ color: #000000;
+  font-family:'arial';
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0 0 9px;
+  text-align: center;; }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #1f1f14;
+}
